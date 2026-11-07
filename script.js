@@ -1,4 +1,4 @@
-<script>
+
 
 let scores = {
     "Mulan": 0,
@@ -108,6 +108,6 @@ function showResult(){
         <p>(Toplam Puanın: ${topScore})</p>
         <img src="${imgSrc}" alt="${topCharacter}" style="width:200px;margin-top:15px;border-radius:10px;">`;
 }
-
+window.onload = function() {
 loadQuestion();
-</script>
+}
